@@ -1,0 +1,1024 @@
+Clasificador presupuestario Apertura Programática
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	            DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	    Ejercicio Presupuestario.
+servicio_id	                    Numérico entero	    Código del Servicio Administrativo Financiero.
+programa_id	                    Numérico entero	    Código del Programa de la Apertura Programática.
+programa_desc	                Numérico entero	    Descripción del Programa de la Apertura Programática.
+subprograma_id	                Numérico entero	    Código del Subprograma de la Apertura Programática.
+subprograma_desc	            Numérico entero	    Descripción del Subprograma de la Apertura Programática.
+proyecto_id	                    Numérico entero	    Código de Proyecto de la Apertura Programática.
+proyecto_desc	                Numérico entero	    Descripción de Proyecto de la Apertura Programática.
+actividad_id	                Numérico entero	    Código de Actividad de la Apertura Programática.
+actividad_desc	                Numérico entero	    Descripción de Actividad de la Apertura Programática.
+obra_id	                        Numérico entero	    Código de Obra de la Apertura Programática.
+obra_desc	                    Numérico entero	    Descripción de Obra de la Apertura Programática.
+ultima_actualizacion_fecha	    Numérico entero     Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Finalidad y Función
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+finalidad_id	                Numérico entero	        Código de la Finalidad.
+finalidad_desc	                Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	                    Numérico entero	        Código de la Función.
+funcion_desc	                Cadena de caracteres	Descripción de la Función.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Objeto del gasto
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+inciso_id	                    Numérico entero	        Código del Inciso del Objeto del Gasto.
+inciso_desc	                    Cadena de caracteres	Descripción del Inciso del Objeto del Gasto.
+principal_id	                Numérico entero	        Código del Principal del Objeto del Gasto.
+principal_desc	                Cadena de caracteres	Descripción del Principal del Objeto del Gasto.
+parcial_id	                    Numérico entero	        Código del Parcial del Objeto del Gasto.
+parcial_desc	                Cadena de caracteres	Descripción del Parcial del Objeto del Gasto.
+subparcial_id	                Numérico entero	        Código del Subparcial del Objeto del Gasto.
+subparcial_desc	                Cadena de caracteres	Descripción del Subparcial del Objeto del Gasto.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Ubicación geográfica
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+ubicacion_geografica_id	        Numérico entero	        Código de la Ubicación Geográfica.
+ubicacion_geografica_desc	    Cadena de caracteres	Descripción de la Ubicación Geográfica.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Rubro del recurso
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+tipo_id	                        Numérico entero	        Código del Tipo del Rubro de Recurso.
+tipo_desc	                    Cadena de caracteres	Descripción del Tipo del Rubro de Recurso.
+clase_id	                    Numérico entero	        Código de la Clase del Rubro de Recurso.
+clase_desc	                    Cadena de caracteres	Descripción de la Clase del Rubro de Recurso.
+concepto_id	                    Numérico entero	        Código del Concepto del Rubro de Recurso.
+concepto_desc	                Cadena de caracteres	Descripción del Concepto del Rubro de Recurso.
+subconcepto_id	                Numérico entero	        Código del Subconcepto del Rubro de Recurso.
+subconcepto_desc	            Cadena de caracteres	Descripción del Subconcepto del Rubro de Recurso.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Institución
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+jurisdiccion_id	                Numérico entero	        Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	            Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	            Numérico entero	        Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	        Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+entidad_id	                    Numérico entero	        Código la Entidad de la Institución.
+entidad_desc	                Cadena de caracteres	Descripción la Entidad de la Institución.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Sector Institucional
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+sector_id	                    Numérico entero	        Código del Sector del Sector Institucional.
+sector_desc	                    Cadena de caracteres	Descripción del Sector del Sector Institucional.
+subsector_id	                Numérico entero	        Código del Subsector del Sector Institucional.
+subsector_desc	                Cadena de caracteres	Descripción del Subsector del Sector Institucional.
+caracter_id	                    Numérico entero	        Código del Carácter del Sector Institucional.
+caracter_desc	                Cadena de caracteres	Descripción del Carácter del Sector Institucional.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Servicio Administrativo Financiero
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+servicio_id	                    Numérico entero	        Código del Servicio Administrativo Financiero.
+servicio_desc	                Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Fuente de Financiamiento
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
+procedencia_id	                Numérico entero	        Código de la Procedencia.
+procedencia_desc	            Cadena de caracteres	Descripción de la Procedencia.
+fuente_id	                    Numérico entero	        Código de la Fuente.
+fuente_desc	                    Cadena de caracteres	Descripción de la Fuente.
+ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Clasificador económico
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                TIPO	                DESCRIPCION
+ejercicio_presupuestario	            Numérico entero	        Ejercicio Presupuestario.
+clasificador_economico_8_digitos_id	    Numérico entero	        Código del Clasificador Económico de ocho caracteres.
+clasificador_economico_8_digitos_desc	Cadena de caracteres	Descripción del Clasificador Económico de ocho caracteres.
+ultima_actualizacion_fecha	            Numérico entero	        Fecha de última actualización del registro.
+
+
+Mapeo Jurisdiccional
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                        TIPO	                DESCRIPCION
+ejercicio_presupuestario	                    Numérico entero	        Ejercicio Presupuestario.
+sector_id	                                    Numérico entero	        Código del Sector del Sector Institucional original.
+subsector_id	                                Numérico entero	        Código del Subsector del Sector Institucional original.
+caracter_id	                                    Numérico entero	        Código del Carácter del Sector Institucional original.
+jurisdiccion_id	                                Numérico entero	        Código de la Jurisdicción de la Institución original.
+subjurisdiccion_id	                            Numérico entero	        Código de la Subjurisdicción de la Institución original.
+entidad_id	                                    Numérico entero	        Código la Entidad de la Institución original.
+servicio_id	                                    Numérico entero	        Código del Servicio Administrativo Financiero original.
+programa_id	                                    Numérico entero	        Código del Programa de la Apertura Programática original.
+subprograma_id	                                Numérico entero	        Código del Subprograma de la Apertura Programática original.
+proyecto_id	                                    Numérico entero	        Código del Proyecto de la Apertura Programática original.
+actividad_id	                                Numérico entero	        Código de la Actividad de la Apertura Programática original.
+obra_id	                                        Numérico entero	        Código de la Obra de la Apertura Programática original.
+inciso_id	                                    Numérico entero	        Código del Inciso del Objeto del Gasto original.
+principal_id	                                Numérico entero	        Código del Principal del Objeto del Gasto original.
+parcial_id	                                    Numérico entero	        Código del Parcial del Objeto del Gasto original.
+subparcial_id	                                Numérico entero	        Código del Subparcial del Objeto del Gasto original.
+procedencia_id	                                Cadena de caracteres	Código de la Procedencia de la Fuente de Financiamiento original.
+fuente_id	                                    Cadena de caracteres	Código de la Fuente de la Fuente de Financiamiento original.
+ubicacion_geografica_id	                        Numérico entero	        Código de la Ubicación Geográfica original.
+clasificador_economico_8_digitos_id	            Numérico entero	        Código completo de ocho dígitos del Clasificador Económico original.
+finalidad_id	                                Numérico entero	        Código de la Finalidad original.
+funcion_id	                                    Numérico entero	        Código de la Función original.
+ejercicio_presupuestario_mapeado	            Numérico entero	        Ejercicio Presupuestario mapeado.
+sector_mapeado_id	                            Numérico entero	        Código del Sector del Sector Institucional mapeado.
+subsector_mapeado_id	                        Numérico entero	        Código del Subsector del Sector Institucional mapeado.
+caracter_mapeado_id	                            Numérico entero	        Código del Carácter del Sector Institucional mapeado.
+jurisdiccion_mapeado_id	                        Numérico entero	        Código de la Jurisdicción de la Institución mapeado.
+subjurisdiccion_mapeado_id	                    Numérico entero	        Código de la Subjurisdicción de la Institución mapeado.
+entidad_mapeado_id	                            Numérico entero	        Código la Entidad de la Institución mapeado.
+servicio_mapeado_id	                            Numérico entero	        Código del Servicio Administrativo Financiero mapeado.
+programa_mapeado_id	                            Numérico entero	        Código del Programa de la Apertura Programática mapeado.
+subprograma_mapeado_id	                        Numérico entero	        Código del Subprograma de la Apertura Programática mapeado.
+proyecto_mapeado_id	                            Numérico entero	        Código del Proyecto de la Apertura Programática mapeado.
+actividad_mapeado_id	                        Numérico entero	        Código de la Actividad de la Apertura Programática mapeado.
+obra_mapeado_id	                                Numérico entero	        Código de la Obra de la Apertura Programática mapeado.
+inciso_mapeado_id	                            Numérico entero	        Código del Inciso del Objeto del Gasto mapeado.
+principal_mapeado_id	                        Numérico entero	        Código del Principal del Objeto del Gasto mapeado.
+parcial_mapeado_id	                            Numérico entero	        Código del Parcial del Objeto del Gasto mapeado.
+subparcial_mapeado_id	                        Numérico entero	        Código del Subparcial del Objeto del Gasto mapeado.
+procedencia_mapeado_id	                        Cadena de caracteres	Código de la Procedencia de la Fuente de Financiamiento mapeado.
+fuente_mapeado_id	                            Cadena de caracteres	Código de la Fuente de la Fuente de Financiamiento mapeado.
+ubicacion_geografica_mapeado_id	                Numérico entero	        Código de la Ubicación Geográfica mapeado.
+clasificador_economico_8_digitos_mapeado_id	    Numérico entero	        Código completo de ocho dígitos del Clasificador Económico original.
+finalidad_mapeado_id	                        Numérico entero	        Código de la Finalidad mapeado.
+funcion_mapeado_id	                            Numérico entero	        Código de la Función mapeado.
+ultima_actualizacion_fecha	                    Fecha	                La Fecha en la que se actualizó por última vez el dato.
+
+
+Presupuesto de gastos y su ejecución resumida
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                    TIPO	                    DESCRIPCION
+caracter_desc	                            Cadena de caracteres	    Descripción del Carácter del Sector Institucional
+subjurisdiccion_desc	                    Cadena de caracteres	    Descripción de la subjurisdicción de la Institución.
+entidad_id	                                Numérico entero	            Código de la Entidad de la Institución.
+entidad_desc	                            Cadena de caracteres	    Descripción de la Entidad de la Institución.
+servicio_id	                                Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                            Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+programa_id	                                Numérico entero	            Código del Programa de la Apertura Programática.
+programa_desc	                            Cadena de caracteres	    Descripción del Programa de la Apertura Programática.
+finalidad_id	                            Numérico entero	            Código de la Finalidad.
+finalidad_desc	                            Cadena de caracteres	    Descripción de la Finalidad.
+funcion_id	                                Numérico entero	            Código de la Función.
+funcion_desc	                            Cadena de caracteres	    Descripción de la Función.
+inciso_id	                                Numérico entero	            Código del Inciso del Objeto del Gasto.
+inciso_desc	                                Cadena de caracteres	    Descripción del Inciso del Objeto del Gasto.
+principal_id	                            Numérico entero	            Código de las partidas Principales del Objeto del Gasto.
+principal_desc	                            Cadena de caracteres	    Descripción de las partidas Principales del Objeto del Gasto.
+clasificador_economico_2_digitos_id	        Numérico entero	            Código del Clasificador Económico de dos caracteres.
+clasificador_economico_2_digitos_desc	    Cadena de caracteres	    Descripción del Clasificador Económico de dos caracteres.
+clasificador_economico_3_digitos_id	        Numérico entero	            Código del Clasificador Económico de tres caracteres.
+clasificador_economico_3_digitos_desc	    Cadena de caracteres	    Descripción del Clasificador Económico de tres caracteres.
+fuente_financiamiento_id	                Numérico entero	            Código de la Fuente que genera el Financiamiento.
+fuente_financiamiento_desc	                Cadena de caracteres	    Descripción de la Fuente que genera el Financiamiento.
+credito_vigente	                            Numérico a dos decimales	Importe del crédito vigente a una determinada fecha. Expresado en pesos argentinos.
+credito_comprometido	                    Numérico a dos decimales	Importe aprobado y comprometido para el egreso del fondo. Expresado en pesos argentinos.
+credito_devengado	                        Numérico a dos decimales	Importe afectado al compromiso del pago. Expresado en pesos argentinos.
+credito_pagado	                            Numérico a dos decimales	Importe que cancela la obligación asumida. Expresado en pesos argentinos.
+ultima_actualizacion_fecha	                Cadena de caracteres	    Fecha de última actualización del registro.
+ejercicio_presupuestario	                Numérico entero	            Código del ejercicio presupuestario.
+impacto_presupuestario_fecha	            Fecha	                    Fecha completa en el cual impactó el Crédito.
+
+
+Presupuesto de gastos y su ejecución detallada - agrupación anual
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                    TIPO	                    DESCRIPCION
+impacto_presupuestario_anio	                Numérico entero	            Año calendario en el cual impactó el Crédito.
+ejercicio_presupuestario	                Numérico entero	            Ejercicio Presupuestario Vigente Crédito.
+sector_id	                                Numérico entero	            Código del Sector del Sector Institucional.
+sector_desc	                                Cadena de caracteres	    Descripción del Sector del Sector Institucional.
+subsector_id	                            Numérico entero	            Código del Subsector del Sector Institucional.
+subsector_desc	                            Cadena de caracteres	    Descripción del Subsector del Sector Institucional.
+caracter_id	                                Numérico entero	            Código del Carácter del Sector Institucional.
+caracter_desc	                            Cadena de caracteres	    Descripción del Carácter del Sector Institucional.
+jurisdiccion_id	                            Numérico entero	            Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	                        Cadena de caracteres	    Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	                        Numérico entero	            Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	                    Cadena de caracteres	    Descripción de la Subjurisdicción de la Institución.
+entidad_id	                                Numérico entero	            Código la Entidad de la Institución.
+entidad_desc	                            Cadena de caracteres	    Descripción la Entidad de la Institución.
+servicio_id	                                Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                            Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+programa_id	                                Numérico entero	            Código del Programa de la Apertura Programática.
+programa_desc	                            Cadena de caracteres	    Descripción del Programa de la Apertura Programática.
+subprograma_id	                            Numérico entero	            Código del Subprograma de la Apertura Programática.
+subprograma_desc	                        Cadena de caracteres	    Descripción del Subprograma de la Apertura Programática.
+proyecto_id	                                Numérico entero	            Código del Proyecto de la Apertura Programática.
+proyecto_desc	                            Cadena de caracteres	    Descripción del Proyecto de la Apertura Programática.
+actividad_id    	                        Numérico entero	            Código de la Actividad de la Apertura Programática.
+actividad_desc	                            Cadena de caracteres	    Descripción de la Actividad de la Apertura Programática.
+obra_id	                                    Numérico entero	            Código de la Obra de la Apertura Programática.
+obra_desc	                                Cadena de caracteres	    Descripción de la Obra de la Apertura Programática.
+finalidad_id	                            Numérico entero	            Código de la Finalidad.
+finalidad_desc	                            Cadena de caracteres	    Descripción de la Finalidad.
+funcion_id	                                Numérico entero	            Código de la Función.
+funcion_desc	                            Cadena de caracteres	    Descripción de la Función.
+inciso_id	                                Numérico entero	            Código del Inciso del Objeto del Gasto.
+inciso_desc	                                Cadena de caracteres	    Descripción del Inciso del Objeto del Gasto.
+principal_id	                            Numérico entero	            Código del Principal del Objeto del Gasto.
+principal_desc	                            Cadena de caracteres	    Descripción del Principal del Objeto del Gasto.
+parcial_id	                                Numérico entero	            Código del Parcial del Objeto del Gasto.
+parcial_desc	                            Cadena de caracteres	    Descripción del Parcial del Objeto del Gasto.
+subparcial_id	                            Numérico entero	            Código del Subparcial del Objeto del Gasto.
+subparcial_desc	                            Cadena de caracteres	    Descripción del Subparcial del Objeto del Gasto.
+clasificador_economico_8_digitos_id	        Numérico entero	            Código completo de ocho dígitos del Clasificador Económico.
+clasificador_economico_8_digitos_desc	    Cadena de caracteres	    Descripción del Clasificador Económico de ocho caracteres.
+fuente_financiamiento_id	                Cadena de caracteres	    Código de la Fuente de Financiamiento. Es la concatenación del Código de la Procedencia y el Código de la Fuente, separados por un punto.
+fuente_financiamiento_desc	                Cadena de caracteres	    Descripción de la Fuente de Financiamiento.
+ubicacion_geografica_id	                    Numérico entero	            Código de la Ubicación Geográfica.
+ubicacion_geografica_desc	                Cadena de caracteres	    Descripción de la Ubicación Geográfica.
+unidad_ejecutora_id	                        Numérico entero	            Código de la Unidad Ejecutora
+unidad_ejecutora_desc	                    Cadena de caracteres	    Descripción de la Unidad Ejecutora
+prestamo_externo_id	                        Numérico entero	            Código de Préstamo Externo.
+prestamo_externo_desc	                    Cadena de caracteres	    Descripción del Préstamo Externo.
+codigo_bapin_id	                            Numérico entero	            Código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).    Contiene valores desde:16-01-2021
+codigo_bapin_desc	                        Cadena de caracteres	    Descripción del código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).    Contiene valores desde:16-01-2021
+credito_presupuestado	                    Numérico a dos decimales	Crédito Presupuestado Inicial.
+credito_vigente	                            Numérico a dos decimales	Acumulado del Crédito Vigente de la fecha. Expresado en pesos argentinos.
+credito_comprometido	                    Numérico a dos decimales	Acumulado del Crédito Comprometido de la fecha. Expresado en pesos argentinos.
+credito_devengado	                        Numérico a dos decimales	Acumulado del Crédito Devengado de la fecha. Expresado en pesos argentinos.
+credito_pagado	                            Numérico a dos decimales	Acumulado del Crédito Pagado de la fecha. Expresado en pesos argentinos.
+ultima_actualizacion_fecha	                Cadena de caracteres	    Leyenda de la Fecha en la que se actualizaron por última vez los datos.
+
+
+Presupuesto de gastos y su ejecución detallada - agrupación mensual
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                    TIPO	                    DESCRIPCION
+impacto_presupuestario_anio	                Numérico entero	            Año calendario en el cual impactó el Crédito.
+impacto_presupuestario_mes	                Numérico entero	            Número del mes en el cual impactó el Crédito.
+ejercicio_presupuestario	                Numérico entero	            Ejercicio Presupuestario Vigente Crédito.
+sector_id	                                Numérico entero	            Código del Sector del Sector Institucional.
+sector_desc	                                Cadena de caracteres	    Descripción del Sector del Sector Institucional.
+subsector_id	                            Numérico entero	            Código del Subsector del Sector Institucional.
+subsector_desc	                            Cadena de caracteres	    Descripción del Subsector del Sector Institucional.
+caracter_id	                                Numérico entero	            Código del Carácter del Sector Institucional.
+caracter_desc	                            Cadena de caracteres	    Descripción del Carácter del Sector Institucional.
+jurisdiccion_id	                            Numérico entero	            Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	                        Cadena de caracteres	    Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	                        Numérico entero	            Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	                    Cadena de caracteres	    Descripción de la Subjurisdicción de la Institución.
+entidad_id	                                Numérico entero	            Código la Entidad de la Institución.
+entidad_desc	                            Cadena de caracteres	    Descripción la Entidad de la Institución.
+servicio_id	                                Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                            Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+programa_id	                                Numérico entero	            Código del Programa de la Apertura Programática.
+programa_desc	                            Cadena de caracteres	    Descripción del Programa de la Apertura Programática.
+subprograma_id	                            Numérico entero	            Código del Subprograma de la Apertura Programática.
+subprograma_desc	                        Cadena de caracteres	    Descripción del Subprograma de la Apertura Programática.
+proyecto_id	                                Numérico entero	            Código del Proyecto de la Apertura Programática.
+proyecto_desc	                            Cadena de caracteres	    Descripción del Proyecto de la Apertura Programática.
+actividad_id	                            Numérico entero	            Código de la Actividad de la Apertura Programática.
+actividad_desc	                            Cadena de caracteres	    Descripción de la Actividad de la Apertura Programática.
+obra_id	                                    Numérico entero	            Código de la Obra de la Apertura Programática.
+obra_desc	                                Cadena de caracteres	    Descripción de la Obra de la Apertura Programática.
+finalidad_id	                            Numérico entero	            Código de la Finalidad.
+finalidad_desc	                            Cadena de caracteres	    Descripción de la Finalidad.
+funcion_id	                                Numérico entero	            Código de la Función.
+funcion_desc	                            Cadena de caracteres	    Descripción de la Función.
+inciso_id	                                Numérico entero	            Código del Inciso del Objeto del Gasto.
+inciso_desc	                                Cadena de caracteres	    Descripción del Inciso del Objeto del Gasto.
+principal_id	                            Numérico entero	            Código del Principal del Objeto del Gasto.
+principal_desc	                            Cadena de caracteres	    Descripción del Principal del Objeto del Gasto.
+parcial_id	                                Numérico entero	            Código del Parcial del Objeto del Gasto.
+parcial_desc	                            Cadena de caracteres	    Descripción del Parcial del Objeto del Gasto.
+subparcial_id	                            Numérico entero	            Código del Subparcial del Objeto del Gasto.
+subparcial_desc	                            Cadena de caracteres	    Descripción del Subparcial del Objeto del Gasto.
+clasificador_economico_8_digitos_id	        Numérico entero	            Código completo de ocho dígitos del Clasificador Económico.
+clasificador_economico_8_digitos_desc	    Cadena de caracteres	    Descripción del Clasificador Económico de ocho caracteres.
+fuente_financiamiento_id	                Cadena de caracteres	    Código de la Fuente de Financiamiento. Es la concatenación del Código de la Procedencia y el Código de la Fuente, separados por un punto.
+fuente_financiamiento_desc	                Cadena de caracteres	    Descripción de la Fuente de Financiamiento.
+ubicacion_geografica_id	                    Numérico entero	            Código de la Ubicación Geográfica.
+ubicacion_geografica_desc	                Cadena de caracteres	    Descripción de la Ubicación Geográfica.
+unidad_ejecutora_id	                        Numérico entero	            Código de la Unidad Ejecutora
+unidad_ejecutora_desc	                    Cadena de caracteres	    Descripción de la Unidad Ejecutora
+prestamo_externo_id	                        Numérico entero	            Código de Préstamo Externo.
+prestamo_externo_desc	                    Cadena de caracteres	    Descripción del Préstamo Externo.
+codigo_bapin_id	                            Numérico entero	            Código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).    Contiene valores desde:16-01-2021
+codigo_bapin_desc	                        Cadena de caracteres	    Descripción del código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).    Contiene valores desde:16-01-2021
+credito_presupuestado	                    Numérico a dos decimales	Crédito Presupuestado Inicial. Expresado en pesos argentinos.
+credito_vigente	                            Numérico a dos decimales	Acumulado del Crédito Vigente de la fecha. Expresado en pesos argentinos.
+credito_comprometido	                    Numérico a dos decimales	Acumulado del Crédito Comprometido de la fecha. Expresado en pesos argentinos.
+credito_devengado	                        Numérico a dos decimales	Acumulado del Crédito Devengado de la fecha. Expresado en pesos argentinos.
+credito_pagado	                            Numérico a dos decimales	Acumulado del Crédito Pagado de la fecha. Expresado en pesos argentinos.
+ultima_actualizacion_fecha	                Cadena de caracteres	    Leyenda de la Fecha en la que se actualizaron por última vez los datos.
+
+
+Presupuesto de gastos y su ejecución detallada - agrupación diaria
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                    TIPO	                    DESCRIPCION
+impacto_presupuestario_anio	                Numérico entero	            Año calendario en el cual impactó el Crédito.
+impacto_presupuestario_mes	                Numérico entero	            Número del mes en el cual impactó el Crédito.
+ejercicio_presupuestario	                Numérico entero	            Ejercicio Presupuestario Vigente Crédito.
+sector_id	                                Numérico entero	            Código del Sector del Sector Institucional.
+sector_desc	                                Cadena de caracteres	    Descripción del Sector del Sector Institucional.
+subsector_id	                            Numérico entero	            Código del Subsector del Sector Institucional.
+subsector_desc	                            Cadena de caracteres	    Descripción del Subsector del Sector Institucional.
+caracter_id	                                Numérico entero	            Código del Carácter del Sector Institucional.
+caracter_desc	                            Cadena de caracteres	    Descripción del Carácter del Sector Institucional.
+jurisdiccion_id	                            Numérico entero	            Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	                        Cadena de caracteres	    Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	                        Numérico entero	            Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	                    Cadena de caracteres	    Descripción de la Subjurisdicción de la Institución.
+entidad_id	                                Numérico entero	            Código la Entidad de la Institución.
+entidad_desc	                            Cadena de caracteres	    Descripción la Entidad de la Institución.
+servicio_id	                                Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                            Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+programa_id	                                Numérico entero	            Código del Programa de la Apertura Programática.
+programa_desc	                            Cadena de caracteres	    Descripción del Programa de la Apertura Programática.
+subprograma_id	                            Numérico entero	            Código del Subprograma de la Apertura Programática.
+subprograma_desc	                        Cadena de caracteres	    Descripción del Subprograma de la Apertura Programática.
+proyecto_id	                                Numérico entero	            Código del Proyecto de la Apertura Programática.
+proyecto_desc	                            Cadena de caracteres	    Descripción del Proyecto de la Apertura Programática.
+actividad_id	                            Numérico entero	            Código de la Actividad de la Apertura Programática.
+actividad_desc	                            Cadena de caracteres	    Descripción de la Actividad de la Apertura Programática.
+obra_id	                                    Numérico entero	            Código de la Obra de la Apertura Programática.
+obra_desc	                                Cadena de caracteres	    Descripción de la Obra de la Apertura Programática.
+finalidad_id	                            Numérico entero	            Código de la Finalidad.
+finalidad_desc	                            Cadena de caracteres	    Descripción de la Finalidad.
+funcion_id	                                Numérico entero	            Código de la Función.
+funcion_desc	                            Cadena de caracteres	    Descripción de la Función.
+inciso_id	                                Numérico entero	            Código del Inciso del Objeto del Gasto.
+inciso_desc	                                Cadena de caracteres	    Descripción del Inciso del Objeto del Gasto.
+principal_id	                            Numérico entero	            Código del Principal del Objeto del Gasto.
+principal_desc	                            Cadena de caracteres	    Descripción del Principal del Objeto del Gasto.
+parcial_id	                                Numérico entero	            Código del Parcial del Objeto del Gasto.
+parcial_desc	                            Cadena de caracteres	    Descripción del Parcial del Objeto del Gasto.
+subparcial_id	                            Numérico entero	            Código del Subparcial del Objeto del Gasto.
+subparcial_desc	                            Cadena de caracteres	    Descripción del Subparcial del Objeto del Gasto.
+clasificador_economico_8_digitos_id	        Numérico entero	            Código completo de ocho dígitos del Clasificador Económico.
+clasificador_economico_8_digitos_desc	    Cadena de caracteres	    Descripción del Clasificador Económico de ocho caracteres.
+fuente_financiamiento_id	                Cadena de caracteres	    Código de la Fuente de Financiamiento. Es la concatenación del Código de la Procedencia y el Código de la Fuente, separados por un punto.
+fuente_financiamiento_desc	                Cadena de caracteres	    Descripción de la Fuente de Financiamiento.
+ubicacion_geografica_id	                    Numérico entero	            Código de la Ubicación Geográfica.
+ubicacion_geografica_desc	                Cadena de caracteres	    Descripción de la Ubicación Geográfica.
+unidad_ejecutora_id	                        Numérico entero	            Código de la Unidad Ejecutora
+unidad_ejecutora_desc	                    Cadena de caracteres	    Descripción de la Unidad Ejecutora
+prestamo_externo_id	                        Numérico entero	            Código de Préstamo Externo.
+prestamo_externo_desc	                    Cadena de caracteres	    Descripción del Préstamo Externo.
+codigo_bapin_id	                            Numérico entero	            Código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).    Contiene valores desde:16-01-2021
+codigo_bapin_desc	                        Cadena de caracteres	    Descripción del código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).    Contiene valores desde:16-01-2021
+credito_presupuestado	                    Numérico a dos decimales	Crédito Presupuestado Inicial. Expresado en pesos argentinos.
+credito_vigente	                            Numérico a dos decimales	Acumulado del Crédito Vigente de la fecha. Expresado en pesos argentinos.
+credito_comprometido	                    Numérico a dos decimales	Acumulado del Crédito Comprometido de la fecha. Expresado en pesos argentinos.
+credito_devengado	                        Numérico a dos decimales	Acumulado del Crédito Devengado de la fecha. Expresado en pesos argentinos.
+credito_pagado	                            Numérico a dos decimales	Acumulado del Crédito Pagado de la fecha. Expresado en pesos argentinos.
+ultima_actualizacion_fecha	                Cadena de caracteres	    Leyenda de la Fecha en la que se actualizaron por última vez los datos.
+
+
+Estimación de recursos y su ejecución - agrupación anual
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                TIPO	                    DESCRIPCION
+impacto_presupuestario_anio	            Numérico entero	            Año calendario en el cual impactó el Recurso.
+ejercicio_presupuestario	            Numérico entero	            Ejercicio Presupuestario Vigente Recurso.
+sector_id	                            Numérico entero	            Código del Sector del Sector Institucional.
+sector_desc	                            Cadena de caracteres	    Descripción del Sector del Sector Institucional.
+subsector_id	                        Numérico entero	            Código del Subsector del Sector Institucional.
+subsector_desc	                        Cadena de caracteres	    Descripción del Subsector del Sector Institucional.
+caracter_id	                            Numérico entero	            Código del Carácter del Sector Institucional.
+caracter_desc	                        Cadena de caracteres	    Descripción del Carácter del Sector Institucional.
+jurisdiccion_id	                        Numérico entero	            Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	                    Cadena de caracteres	    Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	                    Numérico entero	            Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	                Cadena de caracteres	    Descripción de la Subjurisdicción de la Institución.
+entidad_id	                            Numérico entero	            Código la Entidad de la Institución.
+entidad_desc	                        Cadena de caracteres	    Descripción la Entidad de la Institución.
+servicio_id	                            Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                        Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+tipo_id	                                Numérico entero	            Código del Tipo del Rubro de Recurso.
+tipo_desc	                            Cadena de caracteres	    Descripción del Tipo del Rubro de Recurso.
+clase_id	                            Numérico entero	            Código de la Clase del Rubro de Recurso.
+clase_desc	                            Cadena de caracteres	    Descripción de la Clase del Rubro de Recurso.
+concepto_id	                            Numérico entero	            Código del Concepto del Rubro de Recurso.
+concepto_desc	                        Cadena de caracteres	    Descripción del Concepto del Rubro de Recurso.
+subconcepto_id	                        Numérico entero	            Código del Subconcepto del Rubro de Recurso.
+subconcepto_desc	                    Cadena de caracteres	    Descripción del Subconcepto del Rubro de Recurso.
+fuente_financiamiento_id	            Cadena de caracteres	    Código de la Fuente de Financiamiento. Es la concatenación de la Procedencia y la Fuente respectivamente, separados por un punto.
+fuente_financiamiento_id_desc	        Cadena de caracteres	    Código y Descripción concatenados de la Fuente de Financiamiento.
+clasificador_economico_8_digitos_id	    Numérico entero	            Código completo de ocho dígitos del Clasificador Económico.
+clasificador_economico_8_digitos_desc	Cadena de caracteres	    Descripción del Clasificador Económico de ocho caracteres.
+prestamo_externo_id	                    Numérico entero	            Código de Préstamo Externo.
+prestamo_externo_desc	                Cadena de caracteres	    Descripción del Préstamo Externo.
+recurso_inicial	                        Numérico a dos decimales	Calculado del Recurso Inicial del día.
+recurso_vigente	                        Numérico a dos decimales	Calculado del Recurso Vigente del día.
+recurso_ingresado_percibido	            Numérico a dos decimales	Calculado del Recurso Ingresado Precibido del día.
+ultima_actualizacion_fecha	            Cadena de caracteres	    Leyenda de la Fecha en la que se actualizaron por última vez los datos.
+
+
+Estimación de recursos y su ejecución - agrupación mensual
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                TIPO	                    DESCRIPCION
+impacto_presupuestario_anio	            Numérico entero	            Año calendario en el cual impactó el Recurso.
+ejercicio_presupuestario	            Numérico entero	            Ejercicio Presupuestario Vigente Recurso.
+sector_id	                            Numérico entero	            Código del Sector del Sector Institucional.
+sector_desc	                            Cadena de caracteres	    Descripción del Sector del Sector Institucional.
+subsector_id	                        Numérico entero	            Código del Subsector del Sector Institucional.
+subsector_desc	                        Cadena de caracteres	    Descripción del Subsector del Sector Institucional.
+caracter_id	                            Numérico entero	            Código del Carácter del Sector Institucional.
+caracter_desc	                        Cadena de caracteres	    Descripción del Carácter del Sector Institucional.
+jurisdiccion_id	                        Numérico entero	            Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	                    Cadena de caracteres	    Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	                    Numérico entero	            Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	                Cadena de caracteres	    Descripción de la Subjurisdicción de la Institución.
+entidad_id	                            Numérico entero	            Código la Entidad de la Institución.
+entidad_desc	                        Cadena de caracteres	    Descripción la Entidad de la Institución.
+servicio_id	                            Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                        Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+tipo_id	                                Numérico entero	            Código del Tipo del Rubro de Recurso.
+tipo_desc	                            Cadena de caracteres	    Descripción del Tipo del Rubro de Recurso.
+clase_id	                            Numérico entero	            Código de la Clase del Rubro de Recurso.
+clase_desc	                            Cadena de caracteres	    Descripción de la Clase del Rubro de Recurso.
+concepto_id	                            Numérico entero	            Código del Concepto del Rubro de Recurso.
+concepto_desc	                        Cadena de caracteres	    Descripción del Concepto del Rubro de Recurso.
+subconcepto_id	                        Numérico entero	            Código del Subconcepto del Rubro de Recurso.
+subconcepto_desc	                    Cadena de caracteres	    Descripción del Subconcepto del Rubro de Recurso.
+fuente_financiamiento_id	            Cadena de caracteres	    Código de la Fuente de Financiamiento. Es la concatenación de la Procedencia y la Fuente respectivamente, separados por un punto.
+fuente_financiamiento_id_desc	        Cadena de caracteres	    Código y Descripción concatenados de la Fuente de Financiamiento.
+clasificador_economico_8_digitos_id	    Numérico entero	            Código completo de ocho dígitos del Clasificador Económico.
+clasificador_economico_8_digitos_desc	Cadena de caracteres	    Descripción del Clasificador Económico de ocho caracteres.
+prestamo_externo_id	                    Numérico entero	            Código de Préstamo Externo.
+prestamo_externo_desc	                Cadena de caracteres	    Descripción del Préstamo Externo.
+recurso_inicial	                        Numérico a dos decimales	Calculado del Recurso Inicial del día.
+recurso_vigente	                        Numérico a dos decimales	Calculado del Recurso Vigente del día.
+recurso_ingresado_percibido	            Numérico a dos decimales	Calculado del Recurso Ingresado Precibido del día.
+ultima_actualizacion_fecha	            Cadena de caracteres	    Leyenda de la Fecha en la que se actualizaron por última vez los datos.
+
+
+Estimación de recursos y su ejecución - agrupación diaria
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	                                TIPO	                    DESCRIPCION
+impacto_presupuestario_anio	            Numérico entero	            Año calendario en el cual impactó el Recurso.
+ejercicio_presupuestario	            Numérico entero	            Ejercicio Presupuestario Vigente Recurso.
+sector_id	                            Numérico entero	            Código del Sector del Sector Institucional.
+sector_desc	                            Cadena de caracteres	    Descripción del Sector del Sector Institucional.
+subsector_id	                        Numérico entero	            Código del Subsector del Sector Institucional.
+subsector_desc	                        Cadena de caracteres	    Descripción del Subsector del Sector Institucional.
+caracter_id	                            Numérico entero	            Código del Carácter del Sector Institucional.
+caracter_desc	                        Cadena de caracteres	    Descripción del Carácter del Sector Institucional.
+jurisdiccion_id	                        Numérico entero	            Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	                    Cadena de caracteres	    Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	                    Numérico entero	            Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	                Cadena de caracteres	    Descripción de la Subjurisdicción de la Institución.
+entidad_id	                            Numérico entero	            Código la Entidad de la Institución.
+entidad_desc	                        Cadena de caracteres	    Descripción la Entidad de la Institución.
+servicio_id	                            Numérico entero	            Código del Servicio Administrativo Financiero.
+servicio_desc	                        Cadena de caracteres	    Descripción del Servicio Administrativo Financiero.
+tipo_id	                                Numérico entero	            Código del Tipo del Rubro de Recurso.
+tipo_desc	                            Cadena de caracteres	    Descripción del Tipo del Rubro de Recurso.
+clase_id	                            Numérico entero	            Código de la Clase del Rubro de Recurso.
+clase_desc	                            Cadena de caracteres	    Descripción de la Clase del Rubro de Recurso.
+concepto_id	                            Numérico entero	            Código del Concepto del Rubro de Recurso.
+concepto_desc	                        Cadena de caracteres	    Descripción del Concepto del Rubro de Recurso.
+subconcepto_id	                        Numérico entero	            Código del Subconcepto del Rubro de Recurso.
+subconcepto_desc	                    Cadena de caracteres	    Descripción del Subconcepto del Rubro de Recurso.
+fuente_financiamiento_id	            Cadena de caracteres	    Código de la Fuente de Financiamiento. Es la concatenación de la Procedencia y la Fuente respectivamente, separados por un punto.
+fuente_financiamiento_id_desc	        Cadena de caracteres	    Código y Descripción concatenados de la Fuente de Financiamiento.
+clasificador_economico_8_digitos_id	    Numérico entero	            Código completo de ocho dígitos del Clasificador Económico.
+clasificador_economico_8_digitos_desc	Cadena de caracteres	    Descripción del Clasificador Económico de ocho caracteres.
+prestamo_externo_id	                    Numérico entero	            Código de Préstamo Externo.
+prestamo_externo_desc	                Cadena de caracteres	    Descripción del Préstamo Externo.
+recurso_inicial	                        Numérico a dos decimales	Calculado del Recurso Inicial del día.
+recurso_vigente	                        Numérico a dos decimales	Calculado del Recurso Vigente del día.
+recurso_ingresado_percibido	            Numérico a dos decimales	Calculado del Recurso Ingresado Precibido del día.
+ultima_actualizacion_fecha	            Cadena de caracteres	    Leyenda de la Fecha en la que se actualizaron por última vez los datos.
+
+
+Programación y ejecución física segundo trimestre
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario.
+trimestre	Numérico entero	Número de Trimestre.
+finalidad_id	Numérico entero	Código de la Finalidad.
+finalidad_desc	Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	Numérico entero	Código de la Función.
+funcion_desc	Cadena de caracteres	Descripción de la Función.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	Numérico entero	Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+tipo_medicion_fisica	Cadena de caracteres	Tipificación de la medición física.
+medicion_fisica_id	Numérico entero	Código de la medición física.
+medicion_fisica_desc	Cadena de caracteres	Descripción de la medición física.
+unidad_medida_id	Numérico entero	Código de la unidad en que se mide la producción física.
+unidad_medida_desc	Cadena de caracteres	Descripción de la unidad en que se mide la producción física.
+totalizador_avance_fisico	Cadena de caracteres	Operación para calcular el avance físico.
+programacion_inicial_DA	Numérico a dos decimales	Programación física anual informada en la Decisión Administrativa de Distribución del Presupuesto General de la Administración Nacional.
+programacion_inicial_ajustada	Numérico a dos decimales	Programación física ajustada.
+programacion_anual_vig_trim	Numérico a dos decimales	Programación física anual vigente en el trimestre.
+programacion_trim	Numérico a dos decimales	Programación física del trimestre.
+programacion_acumulada_trim	Numérico a dos decimales	Programación física acumulada al trimestre.
+ejecutado_vigente_trim	Numérico a dos decimales	Avance físico alcanzado en el trimestre.
+ejecutado_acumulado_trim	Numérico a dos decimales	Avance físico acumulado al trimestre.
+porc_desvio_acum_trim	Numérico a dos decimales	Porcentaje de desvío del avance físico acumulado al trimestre con respecto a la programación física acumulada al trimestre.
+causa_desvio	Cadena de caracteres	Causa de desvío tipificada.
+causa_desvio_detalle	Cadena de caracteres	Detalle de la causa de desvío.
+causa_desvio_comentario	Cadena de caracteres	Información adicional sobre el desvío.
+Contiene valores desde:1-01-2021
+ultima_actualizacion_fecha	Cadena de caracteres	Fecha en la que se actualizaron por última vez los datos.
+
+
+Programación y ejecución física primer trimestre
+
+Economía y finanzas, Gobierno y Sector Público
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario.
+trimestre	Numérico entero	Número de Trimestre.
+finalidad_id	Numérico entero	Código de la Finalidad.
+finalidad_desc	Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	Numérico entero	Código de la Función.
+funcion_desc	Cadena de caracteres	Descripción de la Función.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	Numérico entero	Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+tipo_medicion_fisica	Cadena de caracteres	Tipificación de la medición física.
+medicion_fisica_id	Numérico entero	Código de la medición física.
+medicion_fisica_desc	Cadena de caracteres	Descripción de la medición física.
+unidad_medida_id	Numérico entero	Código de la unidad en que se mide la producción física.
+unidad_medida_desc	Cadena de caracteres	Descripción de la unidad en que se mide la producción física.
+totalizador_avance_fisico	Cadena de caracteres	Operación para calcular el avance físico.
+programacion_inicial_DA	Numérico a dos decimales	Programación física anual informada en la Decisión Administrativa de Distribución del Presupuesto General de la Administración Nacional.
+programacion_inicial_ajustada	Numérico a dos decimales	Programación física ajustada.
+programacion_anual_vig_trim	Numérico a dos decimales	Programación física anual vigente en el trimestre.
+programacion_trim	Numérico a dos decimales	Programación física del trimestre.
+programacion_acumulada_trim	Numérico a dos decimales	Programación física acumulada al trimestre.
+ejecutado_vigente_trim	Numérico a dos decimales	Avance físico alcanzado en el trimestre.
+ejecutado_acumulado_trim	Numérico a dos decimales	Avance físico acumulado al trimestre.
+porc_desvio_acum_trim	Numérico a dos decimales	Porcentaje de desvío del avance físico acumulado al trimestre con respecto a la programación física acumulada al trimestre.
+causa_desvio	Cadena de caracteres	Causa de desvío tipificada.
+causa_desvio_detalle	Cadena de caracteres	Detalle de la causa de desvío.
+causa_desvio_comentario	Cadena de caracteres	Información adicional sobre el desvío.
+Contiene valores desde:1-01-2021
+ultima_actualizacion_fecha	Cadena de caracteres	Fecha en la que se actualizaron por última vez los datos.
+
+
+Etiquetas de medicion física anual
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario.
+etiqueta_id	Numérico entero	Codigo de la etiqueta.
+etiqueta_desc	Numérico entero	Descripción de la etiqueta.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	Numérico entero	Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+entidad_id	Numérico entero	Código de la Entidad de la Institución.
+entidad_desc	Cadena de caracteres	Descripción de la Entidad de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+proyecto_id	Numérico entero	Código del Proyecto de la Apertura Programática.
+proyecto_desc	Cadena de caracteres	Descripción del Proyecto de la Apertura Programática.
+actividad_id	Numérico entero	Código de la Actividad de la Apertura Programática.
+actividad_desc	Cadena de caracteres	Descripción de la Actividad de la Apertura Programática.
+obra_id	Numérico entero	Código de la Obra de la Apertura Programática.
+obra_desc	Cadena de caracteres	Descripción de la Obra de la Apertura Programática.
+tipo_medicion_fisica	Cadena de caracteres	Indica el tipo de medición física.
+medicion_fisica_id	Numérico entero	Código de la meta física.
+medicion_fisica_desc	Cadena de caracteres	Descripción de la meta física.
+unidad_medida_id	Numérico entero	Código de la unidad en que se mide la producción física.
+unidad_medida_desc	Cadena de caracteres	Descripción de la unidad en que se mide la producción física.
+ponderacion_fisica	Numérico entero	
+
+
+Etiquetas de medicion financiera anual
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario.
+etiqueta_id	Numérico entero	Codigo de la etiqueta.
+etiqueta_desc	Numérico entero	Descripción de la etiqueta.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+subjurisdiccion_id	Numérico entero	Código de la Subjurisdicción de la Institución.
+subjurisdiccion_desc	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+entidad_id	Numérico entero	Código la Entidad de la Institución.
+entidad_desc	Cadena de caracteres	Descripción la Entidad de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+proyecto_id	Numérico entero	Código del Proyecto de la Apertura Programática.
+proyecto_desc	Cadena de caracteres	Descripción del Proyecto de la Apertura Programática.
+actividad_id	Numérico entero	Código de la Actividad de la Apertura Programática.
+actividad_desc	Cadena de caracteres	Descripción de la Actividad de la Apertura Programática.
+obra_id	Numérico entero	Código de la Obra de la Apertura Programática.
+codigo_bapin_id	Numérico entero	Código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).
+Contiene valores desde:1-01-2023
+codigo_bapin_desc	Cadena de caracteres	Descripción del código que identifica al proyecto en el Banco de Proyectos de Inversión Pública (BAPIN).
+Contiene valores desde:1-01-2023
+obra_desc	Cadena de caracteres	Descripción de la Obra de la Apertura Programática.
+ponderacion_credito	Numérico entero	
+
+
+Seguimiento físico de niñez primer trimestre
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución origen.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+finalidad_id	Numérico entero	Código de la Finalidad.
+finalidad_desc	Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	Numérico entero	Código de la Función.
+funcion_desc	Cadena de caracteres	Descripción de la Función.
+tipo_medicion_fisica	Cadena de caracteres	M = Meta, I = Indicador.
+medicion_fisica_id	Numérico entero	Crédigo de la Medición Física.
+medicion_fisica_desc	Cadena de caracteres	Descripción de la Medición Física.
+unidad_medida_id	Numérico entero	Código de la unidad en que se mide la producción física.
+unidad_medida_desc	Cadena de caracteres	Descripción de la unidad en que se mide la producción física.
+programacion_acumulada_al_trimestre	Numérico a dos decimales	Programación acumulada al periodo. Se informan hasta el tercer trimestre del año. Para el último trimestre el análisis se efectúa siguiendo la programación anual vigente.
+ejecutado_acumulado_al_trimestre	Numérico a dos decimales	Ejecutado acumulado en el periodo. Para los Indicadores, en la mayoría de los casos, el dato se completa en la instancia de cierre del ejercicio presupuestario (Cuenta de Inversión).
+
+
+Seguimiento financiero de niñez primer trimestre
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario Vigente Recurso.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución origen.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+proyecto_id	Numérico entero	Código del Proyecto de la Apertura Programática.
+proyecto_desc	Cadena de caracteres	Descripción del Proyecto de la Apertura Programática.
+actividad_id	Numérico entero	Código de la Actividad de la Apertura Programática.
+actividad_desc	Cadena de caracteres	Descripción de la Actividad de la Apertura Programática.
+obra_id	Numérico entero	Código de la Obra de la Apertura Programática.
+obra_desc	Cadena de caracteres	Descripción de la Obra de la Apertura Programática.
+inciso_id	Numérico entero	Código del Inciso del Objeto del Gasto.
+inciso_desc	Cadena de caracteres	Descripción del Inciso del Objeto del Gasto.
+fuente_financiamiento_id	Cadena de caracteres	Código de la Fuente de Financiamiento. Es la concatenación del Código de la Procedencia y el Código de la Fuente, separados por un punto.
+fuente_financiamiento_desc	Cadena de caracteres	Descripción de la Fuente de Financiamiento.
+clasificador_economico_id	Numérico entero	Código de 2 dígitos del Clasificador Económico.
+clasificador_economico_desc	Cadena de caracteres	Descripción del Clasificador Económico.
+finalidad_id	Numérico entero	Código de la Finalidad.
+finalidad_desc	Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	Numérico entero	Código de la Función.
+funcion_desc	Cadena de caracteres	Descripción de la Función.
+credito_presupuestado	Numérico entero	Crédito Presupuestado Inicial. Expresado en pesos argentinos.
+credito_vigente	Numérico entero	Acumulado del crédito vigente. Expresado en pesos argentinos.
+credito_devengado	Numérico entero	Acumulado del crédito devengado. Expresado en pesos argentinos.
+
+
+Seguimiento físico de niñez segundo trimestre
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución origen.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+finalidad_id	Numérico entero	Código de la Finalidad.
+finalidad_desc	Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	Numérico entero	Código de la Función.
+funcion_desc	Cadena de caracteres	Descripción de la Función.
+tipo_medicion_fisica	Cadena de caracteres	M = Meta, I = Indicador.
+medicion_fisica_id	Numérico entero	Crédigo de la Medición Física.
+medicion_fisica_desc	Cadena de caracteres	Descripción de la Medición Física.
+unidad_medida_id	Numérico entero	Código de la unidad en que se mide la producción física.
+unidad_medida_desc	Cadena de caracteres	Descripción de la unidad en que se mide la producción física.
+programacion_acumulada_al_trimestre	Numérico a dos decimales	Programación acumulada al periodo. Se informan hasta el tercer trimestre del año. Para el último trimestre el análisis se efectúa siguiendo la programación anual vigente.
+ejecutado_acumulado_al_trimestre	Numérico a dos decimales	Ejecutado acumulado en el periodo. Para los Indicadores, en la mayoría de los casos, el dato se completa en la instancia de cierre del ejercicio presupuestario (Cuenta de Inversión).
+
+
+Seguimiento financiero de niñez segundo trimestre
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario Vigente Recurso.
+jurisdiccion_id	Numérico entero	Código de la Jurisdicción de la Institución origen.
+jurisdiccion_desc	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+servicio_id	Numérico entero	Código del Servicio Administrativo Financiero.
+servicio_desc	Cadena de caracteres	Descripción del Servicio Administrativo Financiero.
+programa_id	Numérico entero	Código del Programa de la Apertura Programática.
+programa_desc	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+subprograma_id	Numérico entero	Código del Subprograma de la Apertura Programática.
+subprograma_desc	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+proyecto_id	Numérico entero	Código del Proyecto de la Apertura Programática.
+proyecto_desc	Cadena de caracteres	Descripción del Proyecto de la Apertura Programática.
+actividad_id	Numérico entero	Código de la Actividad de la Apertura Programática.
+actividad_desc	Cadena de caracteres	Descripción de la Actividad de la Apertura Programática.
+obra_id	Numérico entero	Código de la Obra de la Apertura Programática.
+obra_desc	Cadena de caracteres	Descripción de la Obra de la Apertura Programática.
+inciso_id	Numérico entero	Código del Inciso del Objeto del Gasto.
+inciso_desc	Cadena de caracteres	Descripción del Inciso del Objeto del Gasto.
+fuente_financiamiento_id	Cadena de caracteres	Código de la Fuente de Financiamiento. Es la concatenación del Código de la Procedencia y el Código de la Fuente, separados por un punto.
+fuente_financiamiento_desc	Cadena de caracteres	Descripción de la Fuente de Financiamiento.
+clasificador_economico_id	Numérico entero	Código de 2 dígitos del Clasificador Económico.
+clasificador_economico_desc	Cadena de caracteres	Descripción del Clasificador Económico.
+finalidad_id	Numérico entero	Código de la Finalidad.
+finalidad_desc	Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	Numérico entero	Código de la Función.
+funcion_desc	Cadena de caracteres	Descripción de la Función.
+credito_presupuestado	Numérico entero	Crédito Presupuestado Inicial. Expresado en pesos argentinos.
+credito_vigente	Numérico entero	Acumulado del crédito vigente. Expresado en pesos argentinos.
+credito_devengado	Numérico entero	Acumulado del crédito devengado. Expresado en pesos argentinos.
+
+
+Proyecto de Ley de Presupuesto Finalidad Función
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+Código Jurisdicción	Numérico entero	Código de la Jurisdicción de la Institución.
+Descripción Jurisdicción	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+Código Subjurisdicción	Numérico entero	Código de la Subjurisdicción de la Institución.
+Descripción Subjurisdicción	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+Código Entidad	Numérico entero	Código la Entidad de la Institución.
+Descripción Entidad	Cadena de caracteres	Descripción la Entidad de la Institución.
+Código Finalidad Función	Numérico entero	Código de la Finalidad y Función.
+Descripción Finalidad Función	Cadena de caracteres	Descripción de la Finalidad y Función.
+Crédito 2025	Numérico a dos decimales	Crédito presupuestado para el ejercicio en pesos.
+
+
+Proyecto de Ley de Presupuesto de Recursos
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+Código Jurisdicción	Numérico entero	Código de la Jurisdicción de la Institución.
+Descripción Jurisdicción	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+Código Subjurisdicción	Numérico entero	Código de la Subjurisdicción de la Institución.
+Descripción Subjurisdicción	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+Código Entidad	Numérico entero	Código la Entidad de la Institución.
+Descripción Entidad	Cadena de caracteres	Descripción la Entidad de la Institución.
+Código Tipo	Numérico entero	Código del Tipo del Rubro de Recurso.
+Descripción Tipo	Cadena de caracteres	Descripción del Tipo del Rubro de Recurso.
+Código Clase	Numérico entero	Código de la Clase del Rubro de Recurso.
+Descripción Clase	Cadena de caracteres	Descripción de la Clase del Rubro de Recurso.
+Código Concepto	Numérico entero	Código del Concepto del Rubro de Recurso.
+Descripción Larga Concepto	Cadena de caracteres	Descripción del Concepto del Rubro de Recurso.
+Recurso 2025	Numérico a dos decimales	Recursos estimados para el ejercicio en pesos.
+
+
+
+Proyecto de Ley de Presupuesto de Gastos por Apertura Programatica
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+Código Jurisdicción	Numérico entero	Código de la Jurisdicción de la Institución.
+Descripción Jurisdicción	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+Código Subjurisdicción	Numérico entero	Código de la Subjurisdicción de la Institución.
+Descripción Subjurisdicción	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+Código Entidad	Numérico entero	Código la Entidad de la Institución.
+Descripción Entidad	Cadena de caracteres	Descripción la Entidad de la Institución.
+Código Programa	Numérico entero	Código del Programa de la Apertura Programática.
+Descripción Programa	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+Código Subprograma	Numérico entero	Código del Subprograma de la Apertura Programática.
+Descripción Subprograma	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+Código Proyecto	Numérico entero	Código del Proyecto de la Apertura Programática.
+Descripción Proyecto	Cadena de caracteres	Descripción del Proyecto de la Apertura Programática.
+Código Actividad	Numérico entero	Código de la Actividad de la Apertura Programática.
+Descripción Actividad	Cadena de caracteres	Descripción de la Actividad de la Apertura Programática.
+Crédito 2025	Numérico a dos decimales	Crédito presupuestado para el ejercicio en pesos.
+
+
+Proyecto de Ley de Presupuesto de Gastos por Partida Presupuestaria
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+Código Jurisdicción	Numérico entero	Código de la Jurisdicción de la Institución.
+Descripción Jurisdicción	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+Código Subjurisdicción	Numérico entero	Código de la Subjurisdicción de la Institución.
+Descripción Subjurisdicción	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+Código Entidad	Numérico entero	Código la Entidad de la Institución.
+Descripción Entidad	Cadena de caracteres	Descripción la Entidad de la Institución.
+Código Programa	Numérico entero	Código del Programa de la Apertura Programática.
+Descripción Programa	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+Código Subprograma	Numérico entero	Código del Subprograma de la Apertura Programática.
+Descripción Subprograma	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+Codígo Inciso	Numérico entero	Código del Inciso del Objeto del Gasto.
+Descripción Inciso	Cadena de caracteres	Descripción del Inciso del Objeto del Gasto.
+Código Principal	Numérico entero	Código del Principal del Objeto del Gasto.
+Descripción Principal	Cadena de caracteres	Descripción del Principal del Objeto del Gasto.
+Crédito 2025	Numérico entero	Crédito presupuestado para el ejercicio en pesos.
+
+
+Proyecto de Ley de Presupuesto Metas Físicas
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+Código Jurisdicción	Numérico entero	Código de la Jurisdicción de la Institución.
+Descripción Jurisdicción	Cadena de caracteres	Descripción de la Jurisdicción de la Institución.
+Código Subjurisdicción	Numérico entero	Código de la Subjurisdicción de la Institución.
+Descripción Subjurisdicción	Cadena de caracteres	Descripción de la Subjurisdicción de la Institución.
+Código Entidad	Numérico entero	Código la Entidad de la Institución.
+Descripción Entidad	Cadena de caracteres	Descripción la Entidad de la Institución.
+Código Programa	Numérico entero	Código del Programa de la Apertura Programática.
+Descripción Programa	Cadena de caracteres	Descripción del Programa de la Apertura Programática.
+Código Subprograma	Numérico entero	Código del Subprograma de la Apertura Programática.
+Descripción Subprograma	Cadena de caracteres	Descripción del Subprograma de la Apertura Programática.
+Tipo de Medición	Cadena de caracteres	Indica el tipo de medición física.
+Código Medición	Numérico entero	Código de la meta física.
+Descripción Medición	Cadena de caracteres	Descripción de la meta física.
+Unidad de Medida	Numérico entero	Código de la unidad en que se mide la producción física.
+Descripción Unidad de Medida	Cadena de caracteres	Descripción de la unidad en que se mide la producción física.
+Base 2025	Numérico entero	Cantidad estimada a alcanzar durante el ejercicio, basada en la unidad de medida de la meta física.
+
+
+Clasificador presupuestario Unidad Ejecutora
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+unidad_ejecutora_id	Numérico entero	Código de la Unidad Ejecutora
+unidad_ejecutora_desc	Cadena de caracteres	Descripción de la Unidad Ejecutora
+
+
+Clasificador presupuestario Código Bapin
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+codigo_bapin_id	Numérico entero	Código de proyecto del Banco de Proyectos de Inversión Pública.
+Contiene valores desde:16-01-2021
+codigo_bapin_desc	Cadena de caracteres	Descripción de proyecto del Banco de Proyectos de Inversión Pública.
+Contiene valores desde:16-01-2021
+ultima_actualizacion_fecha	Cadena de caracteres	Fecha de última actualización del registro.
+
+
+Clasificador presupuestario Prestamo Externo
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+prestamo_externo_id	Numérico entero	Código de identificación presupuestaria para préstamos y/o donaciones con financiamiento internacional.
+prestamo_externo_desc	Cadena de caracteres	Descripción de identificación presupuestaria para préstamos y/o donaciones con financiamiento internacional.
+prestamo_externo_det	Cadena de caracteres	Descripción detallada de identificación presupuestaria para préstamos y/o donaciones con financiamiento internacional.
+ultima_actualizacion_fecha	Cadena de caracteres	Fecha de última actualización del registro.
+
+
+Total Presupuesto y ejecucion de gastos y recursos
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Numérico entero	Ejercicio Presupuestario del impacto.
+credito_presupuestado	Numérico a dos decimales	Crédito Presupuestado Inicial. Expresado en pesos argentinos.
+credito_vigente	Numérico a dos decimales	Acumulado del Crédito Vigente del ejercicio a la fecha. Expresado en pesos argentinos.
+credito_devengado	Numérico a dos decimales	Acumulado del Crédito Devengado del ejercicio a la fecha. Expresado en pesos argentinos.
+recurso_inicial	Numérico a dos decimales	Calculado del Recurso Inicial del ejercicio a la fecha.
+recurso_vigente	Numérico a dos decimales	Calculado del Recurso Vigente del ejercicio a la fecha.
+recurso_ingresado_percibido	Numérico a dos decimales	Calculado del Recurso Ingresado Precibido del ejercicio a la fecha.
+gasto_primario_presupuestado	Numérico a dos decimales	Acumulado del Gasto Presupuestado. Expresado en millones de pesos.
+gasto_primario_vigente	Numérico a dos decimales	Acumulado del Gasto Vigente. Expresado en millones de pesos
+gasto_primario_devengado	Numérico a dos decimales	Acumulado del Gasto Devengado. Expresado en millones de pesos.
+ultima_actualizacion_fecha	Cadena de caracteres	Leyenda de la Fecha en la que se actualizaron por última vez los datos del ejercicio.
+
+
+Serie anual gastos, recursos y PIB
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Fecha	Ejercicio Presupuestario Vigente Recurso.
+ingreso	Numérico a dos decimales	Calculado del Recurso Vigente. Expresado en pesos argentinos.
+gasto	Numérico a dos decimales	Acumulado del Crédito Devengado. Expresado en pesos argentinos.
+pib	Numérico a dos decimales	Producto interno bruto. Fuente de datos INDEC.
+
+
+Serie anual de gastos por finalidad y función
+
+Economía, Finanzas, Recursos, Presupuesto
+
+NOMBRE	TIPO	DESCRIPCION
+ejercicio_presupuestario	Fecha	Ejercicio Presupuestario Vigente Recurso.
+pib	Numérico a dos decimales	Producto interno bruto. Fuente de datos INDEC.
+finalidad1_funcion1	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 1: ADMINISTRACION GUBERNAMENTAL - Legislativa. Expresado en pesos argentinos.
+finalidad1_funcion2	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 2: ADMINISTRACION GUBERNAMENTAL - Judicial. Expresado en pesos argentinos.
+finalidad1_funcion3	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 3: ADMINISTRACION GUBERNAMENTAL - Dirección Superior Ejecutiva. Expresado en pesos argentinos.
+finalidad1_funcion4	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 4: ADMINISTRACION GUBERNAMENTAL - Relaciones Exteriores. Expresado en pesos argentinos.
+finalidad1_funcion5	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 5: ADMINISTRACION GUBERNAMENTAL - Relaciones Interiores. Expresado en pesos argentinos.
+finalidad1_funcion6	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 6: ADMINISTRACION GUBERNAMENTAL - Administración Fiscal. Expresado en pesos argentinos.
+finalidad1_funcion7	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 7: ADMINISTRACION GUBERNAMENTAL - Control de la Gestión Pública. Expresado en pesos argentinos.
+finalidad1_funcion8	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 1, función 8: ADMINISTRACION GUBERNAMENTAL - Información y Estadística Básicas. Expresado en pesos argentinos.
+finalidad2_funcion1	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 2, función 1: SERVICIOS DE DEFENSA Y SEGURIDAD - Defensa. Expresado en pesos argentinos.
+finalidad2_funcion2	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 2, función 2: SERVICIOS DE DEFENSA Y SEGURIDAD - Seguridad Interior. Expresado en pesos argentinos.
+finalidad2_funcion3	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 2, función 3: SERVICIOS DE DEFENSA Y SEGURIDAD - Sistema Penal. Expresado en pesos argentinos.
+finalidad2_funcion4	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 2, función 4: SERVICIOS DE DEFENSA Y SEGURIDAD - Inteligencia. Expresado en pesos argentinos.
+finalidad3_funcion1	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 1: SERVICIOS SOCIALES - Salud. Expresado en pesos argentinos.
+finalidad3_funcion2	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 2: SERVICIOS SOCIALES - Promoción y Asistencia Social. Expresado en pesos argentinos.
+finalidad3_funcion3	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 3: SERVICIOS SOCIALES - Seguridad Social. Expresado en pesos argentinos.
+finalidad3_funcion4	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 4: SERVICIOS SOCIALES - Educación y Cultura. Expresado en pesos argentinos.
+finalidad3_funcion5	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 5: SERVICIOS SOCIALES - Ciencia. Expresado en pesos argentinos.
+finalidad3_funcion6	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 6: SERVICIOS SOCIALES - Trabajo. Expresado en pesos argentinos.
+finalidad3_funcion7	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 7: SERVICIOS SOCIALES - Vivienda y Urbanismo. Expresado en pesos argentinos.
+finalidad3_funcion8	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 8: SERVICIOS SOCIALES - Agua Potable y Alcantarillado. Expresado en pesos argentinos.
+finalidad3_funcion9	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 3, función 9: SERVICIOS SOCIALES - Otros Servicios Urbanos. Expresado en pesos argentinos.
+finalidad4_funcion1	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 1: SERVICIOS ECONOMICOS - Energía. Expresado en pesos argentinos.
+finalidad4_funcion2	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 2: SERVICIOS ECONOMICOS - Comunicaciones. Expresado en pesos argentinos.
+finalidad4_funcion3	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 3: SERVICIOS ECONOMICOS - Transporte. Expresado en pesos argentinos.
+finalidad4_funcion4	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 4: SERVICIOS ECONOMICOS - Ecología y Desarrollo Sostenible. Expresado en pesos argentinos.
+finalidad4_funcion5	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 5: SERVICIOS ECONOMICOS - Agricultura. Expresado en pesos argentinos.
+finalidad4_funcion6	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 6: SERVICIOS ECONOMICOS - Industria. Expresado en pesos argentinos.
+finalidad4_funcion7	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 7: SERVICIOS ECONOMICOS - Comercio. Expresado en pesos argentinos.
+finalidad4_funcion8	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 4, función 8: SERVICIOS ECONOMICOS - Seguros y Finanzas. Expresado en pesos argentinos.
+finalidad5_funcion1	Numérico a dos decimales	Acumulado del Crédito Devengado para la finalidad 5, función 1: DEUDA PUBLICA - Servicio de la Deuda Pública. Expresado en pesos argentinos.
