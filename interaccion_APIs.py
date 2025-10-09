@@ -5,13 +5,13 @@ url_2 = "https://www.presupuestoabierto.gob.ar/api/v1/recurso?format=csv"
 url_3 = "https://www.presupuestoabierto.gob.ar/api/v1/pef?format=csv"
 url_4 = "https://www.presupuestoabierto.gob.ar/api/v1/transversal_financiero?format=csv"
 
-headers = {
+header = {
     "Authorization": "40d2c302-66ad-4671-a15f-73acc27ef763",
     "Content-Type": "application/json",
     "Accept": "text/csv"
 }
 
-payload = {
+pload = {
     "title": "Clasificador presupuestario Apertura Programática",
     "ejercicios": [2021,2022,2023,2024,2025],
     "columns": [
@@ -31,13 +31,17 @@ payload = {
     ]
 }
 
-response = requests.post(url_1, json=payload, headers=headers)
+# Función para hacer la solicitud y guardar el CSV
+def pedir_datos(url, payload, headers):
+    response = requests.post(url, json=payload, headers=headers)
 
-print(response.status_code)
+    print(response.status_code)
 
-if response.status_code == 200:
-    with open("credito.csv", "wb") as f:
-        f.write(response.content)
-    print("CSV guardado como credito.csv")
-else:
-    print("Error:", response.text)
+    if response.status_code == 200:
+        with open("credito.csv", "wb") as f:
+            f.write(response.content)
+        print("CSV guardado como credito.csv")
+    else:
+        print("Error:", response.text)
+
+pedir_datos(url_1, pload, header)

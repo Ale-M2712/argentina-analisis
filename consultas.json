@@ -1,0 +1,46 @@
+[
+    {"title": "Clasificador presupuestario Apertura Programática",
+    "ejercicios": [2021,2022,2023,2024,2025],
+    "columns": [
+       "ejercicio_presupuestario",
+       "servicio_id",
+       "programa_id",
+       "programa_desc",
+       "subprograma_id",
+       "subprograma_desc",
+       "proyecto_id",
+       "proyecto_desc",
+       "actividad_id",
+       "actividad_desc",
+       "obra_id",
+       "obra_desc",
+       "ultima_actualizacion_fecha"
+    ]
+}, 
+{"title": "Clasificador presupuestario Finalidad y Función",
+    "ejercicios": [2021,2022,2023,2024,2025],
+    "columns": [
+       "ejercicio_presupuestario",
+       "finalidad_id",
+       "finalidad_desc",
+       "funcion_id",
+       "funcion_desc",
+       "ultima_actualizacion_fecha"
+    ]},
+    {
+  "title": "Clasificador presupuestario Objeto del gasto",
+  "ejercicios": [2021, 2022, 2023, 2024, 2025],
+  "columns": [
+    "ejercicio_presupuestario",
+    "inciso_id",
+    "inciso_desc",
+    "principal_id",
+    "principal_desc",
+    "parcial_id",
+    "parcial_desc",
+    "subparcial_id",
+    "subparcial_desc",
+    "ultima_actualizacion_fecha"
+  ]
+}
+]

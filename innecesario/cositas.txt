@@ -1,36 +1,3 @@
-Clasificador presupuestario Apertura Programática
-
-Economía, Finanzas, Recursos, Presupuesto
-
-NOMBRE	                        TIPO	            DESCRIPCION
-ejercicio_presupuestario	    Numérico entero	    Ejercicio Presupuestario.
-servicio_id	                    Numérico entero	    Código del Servicio Administrativo Financiero.
-programa_id	                    Numérico entero	    Código del Programa de la Apertura Programática.
-programa_desc	                Numérico entero	    Descripción del Programa de la Apertura Programática.
-subprograma_id	                Numérico entero	    Código del Subprograma de la Apertura Programática.
-subprograma_desc	            Numérico entero	    Descripción del Subprograma de la Apertura Programática.
-proyecto_id	                    Numérico entero	    Código de Proyecto de la Apertura Programática.
-proyecto_desc	                Numérico entero	    Descripción de Proyecto de la Apertura Programática.
-actividad_id	                Numérico entero	    Código de Actividad de la Apertura Programática.
-actividad_desc	                Numérico entero	    Descripción de Actividad de la Apertura Programática.
-obra_id	                        Numérico entero	    Código de Obra de la Apertura Programática.
-obra_desc	                    Numérico entero	    Descripción de Obra de la Apertura Programática.
-ultima_actualizacion_fecha	    Numérico entero     Fecha de última actualización del registro.
-
-
-Clasificador presupuestario Finalidad y Función
-
-Economía, Finanzas, Recursos, Presupuesto
-
-NOMBRE	                        TIPO	                DESCRIPCION
-ejercicio_presupuestario	    Numérico entero	        Ejercicio Presupuestario.
-finalidad_id	                Numérico entero	        Código de la Finalidad.
-finalidad_desc	                Cadena de caracteres	Descripción de la Finalidad.
-funcion_id	                    Numérico entero	        Código de la Función.
-funcion_desc	                Cadena de caracteres	Descripción de la Función.
-ultima_actualizacion_fecha	    Numérico entero	        Fecha de última actualización del registro.
-
-
 Clasificador presupuestario Objeto del gasto
 
 Economía, Finanzas, Recursos, Presupuesto
