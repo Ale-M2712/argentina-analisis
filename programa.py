@@ -1,8 +1,10 @@
 from sqlalchemy import create_engine
 import pandas as pd
+import json
 import interaccion_db
 import interaccion_APIs
 
+#los datos estan expresados en millones de pesos
 
 # Reemplazá con tus datos reales
 usuario = "postgres"
@@ -16,3 +18,4 @@ url = f"postgresql+psycopg2://{usuario}:{clave}@{host}:{puerto}/{base}"
 engine = create_engine(url)
 df = pd.read_csv("Clasificador presupuestario Apertura Programática.csv")
 interaccion_db.guardar_datos(df,'Clasificador presupuestario Apertura Programática')
+#def actualizar_db():
