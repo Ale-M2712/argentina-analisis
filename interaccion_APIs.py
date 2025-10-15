@@ -38,7 +38,7 @@ def pedir_datos(url, payload, headers):
     print(response.status_code)
 
     if response.status_code == 200:
-        with open("credito.csv", "wb") as f:
+        with open(f"{payload['title']}.csv", "wb") as f:
             f.write(response.content)
         print("CSV guardado como credito.csv")
     else:
