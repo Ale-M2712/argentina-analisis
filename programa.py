@@ -1,8 +1,12 @@
 from sqlalchemy import create_engine
 import pandas as pd
 import json
+import os
+import datetime
+import interaccion_json
 import interaccion_db
 import interaccion_APIs
+
 
 #los datos estan expresados en millones de pesos
 
@@ -24,11 +28,30 @@ header = {
     "Content-Type": "application/json",
     "Accept": "text/csv"
 }
-#solicitud de datos
-interaccion_APIs.solicitar_datos(url_1, header, interaccion_APIs.pload)#cambia los parametros 
+
 # Armá el string de conexión
 url = f"postgresql+psycopg2://{usuario}:{clave}@{host}:{puerto}/{base}"
 engine = create_engine(url)
 df = pd.read_csv("Clasificador presupuestario Apertura Programática.csv")
-interaccion_db.guardar_datos(df,'Clasificador presupuestario Apertura Programática')
-#def actualizar_db():
+        
+
+#bajar todos los datos y guardar en la db
+def descargar_y_guardar(año, mes, tabla, url, header):
+    anio= interaccion_json.ver_anio()
+    mes= interaccion_json.ver_mes()
+    interaccion_APIs.solicitar_datos(url, header, interaccion_APIs.pload(anio, mes, tabla))
+    print(f"leyendo {tabla}.csv")
+    df = pd.read_csv(f"{tabla}.csv")
+    print("csv leido ,guardando en la db")
+    interaccion_db.guardar_datos(df, tabla)
+    os.remove(f"{tabla}.csv")
+    print(f"{tabla} guardado y csv eliminado")
+
+
+
+#ejecucion del programa
+interaccion_db.comprobar_conexion()
+interaccion_db.comprobar_tabla("credito")
+interaccion_db.comprobar_tabla("recurso")
+interaccion_db.comprobar_tabla("pef")
+interaccion_db.comprobar_tabla("transversal_financiero")

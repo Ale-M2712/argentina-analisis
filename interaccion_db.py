@@ -3,7 +3,7 @@ import pandas as pd
 
 # Reemplazá con tus datos reales
 usuario = "postgres"
-clave = "Ale271202"
+clave = "Laput4madre"
 host = "localhost"
 puerto = "5432"
 base = "Arg_Fiscal"
@@ -12,14 +12,36 @@ base = "Arg_Fiscal"
 url = f"postgresql+psycopg2://{usuario}:{clave}@{host}:{puerto}/{base}"
 engine = create_engine(url)
 
-def guardar_datos(df, tabla):
+def comprobar_conexion(): #verificar conexion a la db
+    try:
+        with engine.connect() as connection:
+            result = connection.execute("SELECT 1")
+            print("Conexión exitosa a la base de datos.")
+    except Exception as e:
+        print(f"Error al conectar a la base de datos: {e}")
+        
+def comprobar_tabla(tabla): #verificar si la tabla existe en la db
+    try:
+        with engine.connect() as connection:
+            result = connection.execute(f"SELECT to_regclass('{tabla}')")
+            exists = result.scalar() is not None
+            if exists:
+                print(f"La tabla '{tabla}' existe en la base de datos.")
+            else:
+                print(f"La tabla '{tabla}' NO existe en la base de datos.")
+            return exists
+    except Exception as e:
+        print(f"Error al verificar la tabla '{tabla}': {e}")
+        return False
+
+def guardar_datos(df, tabla): #guardar datos en la db
     try:
         df.to_sql(tabla, engine, if_exists='replace', index=False)
         print(f"Datos guardados en la tabla '{tabla}' exitosamente.")
     except Exception as e:
         print(f"Error al guardar los datos en la tabla '{tabla}': {e}")
 
-def borrar_tabla(tabla):
+def borrar_tabla(tabla): #borrar tabla de la db
     try:
         with engine.connect() as connection:
             connection.execute(f"DROP TABLE IF EXISTS {tabla}")
@@ -84,7 +106,13 @@ crear_tabla_credito = """CREATE TABLE tabla_credito (
   credito_devengado NUMERIC(18,2),
   credito_pagado NUMERIC(18,2),
   ultima_actualizacion_fecha TEXT
-);"""
+);
+ALTER TABLE tabla_credito
+ ADD CONSTRAINT pk_credito PRIMARY KEY (
+ impacto_presupuestario_anio, 
+ impacto_presupuestario_mes, 
+ ejercicio_presupuestario, 
+ sector_id);"""
 crear_tabla_recurso = """CREATE TABLE tabla_recurso (
   impacto_presupuestario_anio INTEGER,
   impacto_presupuestario_mes INTEGER,
@@ -121,16 +149,16 @@ crear_tabla_recurso = """CREATE TABLE tabla_recurso (
   recurso_vigente NUMERIC(18,2),
   recurso_ingresado_percibido NUMERIC(18,2),
   ultima_actualizacion_fecha TEXT
+);
+ALTER TABLE tabla_recurso
+ ADD CONSTRAINT pk_recurso PRIMARY KEY (
+   ejercicio_presupuestario,
+   impacto_presupuestario_anio,
+   impacto_presupuestario_mes,
+   jurisdiccion_id,
+   tipo_id,
+   concepto_id
 );"""
-#ALTER TABLE tabla_recurso
-# ADD CONSTRAINT pk_recurso PRIMARY KEY (
-#   ejercicio_presupuestario,
-#   impacto_presupuestario_anio,
-#   impacto_presupuestario_mes,
-#   jurisdiccion_id,
-#   tipo_id,
-#   concepto_id
-# );
 crear_tabla_pef = """CREATE TABLE tabla_pef (
   trimestre INTEGER,
   finalidad_id INTEGER,
@@ -185,14 +213,14 @@ crear_tabla_pef = """CREATE TABLE tabla_pef (
   causa_desvio_comentario TEXT,
   porc_desvio_acum_trim NUMERIC(5,2),
   ultima_actualizacion_fecha TEXT
-);"""
-# ALTER TABLE tabla_pef
-# ADD CONSTRAINT pk_pef PRIMARY KEY (
-#   trimestre,
-#   jurisdiccion_id,
-#   programa_id,
-#   medicion_fisica_id
-# );
+);
+ALTER TABLE tabla_pef
+ADD CONSTRAINT pk_pef PRIMARY KEY (
+  trimestre,
+  jurisdiccion_id,
+  programa_id,
+  medicion_fisica_id
+ );"""
 crear_tabla_transversal = """CREATE TABLE tabla_transversal (
   sector_id INTEGER,
   sector_desc TEXT,
@@ -245,13 +273,13 @@ crear_tabla_transversal = """CREATE TABLE tabla_transversal (
   credito_vigente_ponderado NUMERIC(18,2),
   credito_ejecutado NUMERIC(18,2),
   credito_ejecutado_ponderado NUMERIC(18,2)
+);
+ALTER TABLE tabla_transversal
+ADD CONSTRAINT pk_transversal PRIMARY KEY (
+  jurisdiccion_id,
+  programa_id,
+  etiqueta_id
 );"""
-# ALTER TABLE tabla_transversal
-# ADD CONSTRAINT pk_transversal PRIMARY KEY (
-#   jurisdiccion_id,
-#   programa_id,
-#   etiqueta_id
-# );
 def crear_tabla(tabla_sql, nombre_tabla):
     try:
         with engine.begin() as connection:
@@ -262,4 +290,4 @@ def crear_tabla(tabla_sql, nombre_tabla):
 
 
 # Ejemplo de uso
-crear_tabla(crear_tabla_credito, "credito")
+# crear_tabla(crear_tabla_credito, "credito")
