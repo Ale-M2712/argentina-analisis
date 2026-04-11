@@ -97,7 +97,6 @@ def pload(año, mes, tabla):
     "title": "recurso",
     "ejercicios": [año],
     "columns": [
-"impacto_presupuestario_fecha",
 "impacto_presupuestario_anio",
 "impacto_presupuestario_mes",
 "ejercicio_presupuestario",
@@ -213,6 +212,9 @@ def pload(año, mes, tabla):
     "title": "transversal_financiero",
     "ejercicios": [año],
     "columns": [
+"impacto_presupuestario_fecha",
+"impacto_presupuestario_anio",
+"impacto_presupuestario_mes",
 "ejercicio_presupuestario",
 "sector_id",
 "sector_desc",
@@ -242,10 +244,6 @@ def pload(año, mes, tabla):
 "finalidad_desc",
 "funcion_id",
 "funcion_desc",
-"fuente_financiamiento_id",
-"fuente_financiamiento_desc",
-"ubicacion_geografica_id",
-"ubicacion_geografica_desc",
 "inciso_id",
 "inciso_desc",
 "principal_id",
@@ -254,17 +252,24 @@ def pload(año, mes, tabla):
 "parcial_desc",
 "subparcial_id",
 "subparcial_desc",
-"etiqueta_id",
-"etiqueta_desc",
-"ponderacion_credito",
+"clasificador_economico_8_digitos_id",
+"clasificador_economico_8_digitos_desc",
+"fuente_financiamiento_id",
+"fuente_financiamiento_desc",
+"ubicacion_geografica_id",
+"ubicacion_geografica_desc",
+"unidad_ejecutora_id",
+"unidad_ejecutora_desc",
+"prestamo_externo_id",
+"prestamo_externo_desc",
 "codigo_bapin_id",
 "codigo_bapin_desc",
-"credito_inicial",
-"credito_inicial_ponderado",
+"credito_presupuestado",
 "credito_vigente",
-"credito_vigente_ponderado",
-"credito_ejecutado",
-"credito_ejecutado_ponderado"
+"credito_comprometido",
+"credito_devengado",
+"credito_pagado",
+"ultima_actualizacion_fecha"
 ],
 "filters":[
         {
@@ -280,15 +285,20 @@ def pload(año, mes, tabla):
 
 # Función para hacer la solicitud y guardar el CSV (terminado)
 def pedir_datos(url, payload, headers):
-    print(f"Solicitando datos para {payload['title']} del año {payload['ejercicios'][0]} y mes {payload['filters'][0]['value']}...")
+    if (url == url_4):
+        print(f"Solicitando datos para {payload.get('title')} del año {payload['ejercicios'][0]}...")
+    else:
+        print(f"Solicitando datos para {payload.get('title')} del año {payload['ejercicios'][0]} y mes {payload['filters'][0]['value']}...")
     response = requests.post(url, json=payload, headers=headers) #tengo que armar lo de los json varios
-    
+
     if response.status_code == 200: # Si la solicitud fue exitosa
-        with open(f"{payload['title']}.csv", "wb") as f: # Guardar el contenido en un archivo CSV
+        with open(f"{payload.get('title')}.csv", "wb") as f: # Guardar el contenido en un archivo CSV
             f.write(response.content)
-        print("CSV guardado como credito.csv") # Mensaje de confirmación
+        print(f"CSV guardado como {payload.get('title')}.csv") # Mensaje de confirmación
     else:
         print(response.status_code)
         print("Error:", response.text) # Mensaje de error si la solicitud falla
 
-pedir_datos(url_1, pload(1995, 5, "credito"), header) #prueba
+pedir_datos(url_1, pload(1995, 5, "transversal_financiero"), header) #prueba
+# p = pload(1995, 5, "credito")
+# print('payload title:', p.get('title'))
