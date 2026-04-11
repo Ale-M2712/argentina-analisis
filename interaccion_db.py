@@ -221,7 +221,7 @@ ADD CONSTRAINT pk_pef PRIMARY KEY (
   programa_id,
   medicion_fisica_id
  );"""
-crear_tabla_transversal = """CREATE TABLE tabla_transversal (
+crear_tabla_transversal = """CREATE TABLE tabla_transversal_financiero (
   sector_id INTEGER,
   sector_desc TEXT,
   subsector_id INTEGER,

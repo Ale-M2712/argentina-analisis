@@ -267,11 +267,14 @@ def pload(año, mes, tabla):
 "credito_ejecutado_ponderado"
 ],
 "filters":[
-    {
-      "column": "impacto_presupuestario_mes",
-      "operator": "equal",
-      "value": f"{mes}"}
-]
+        {
+            # Este endpoint no admite 'impacto_presupuestario_mes' como columna de filtro.
+            # Filtramos por 'ejercicio_presupuestario' (año) en su lugar.
+            "column": "ejercicio_presupuestario",
+            "operator": "equal",
+            "value": f"{año}"
+        }
+    ]
 }
     return pload
 
