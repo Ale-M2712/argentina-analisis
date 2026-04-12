@@ -1,0 +1,32 @@
+aca corrigo la documentacion y explico que estaba mal
+
+clasificador presupuestario apertura programatica
+
+ejercicio_presupuestario	Numérico entero	    Ejercicio Presupuestario.
+servicio_id	                Numérico entero	    Código del Servicio Administrativo Financiero.
+programa_id                 Numérico entero	    Código del Programa de la Apertura Programática.
+programa_desc	            string      	    Descripción del Programa de la Apertura Programática.
+subprograma_id	            Numérico entero	    Código del Subprograma de la Apertura Programática.
+subprograma_desc	        string      	    Descripción del Subprograma de la Apertura Programática.
+proyecto_id	                Numérico entero	    Código de Proyecto de la Apertura Programática.
+proyecto_desc	            string      	    Descripción de Proyecto de la Apertura Programática.
+actividad_id	            Numérico entero	    Código de Actividad de la Apertura Programática.
+actividad_desc	            string      	    Descripción de Actividad de la Apertura Programática.
+obra_id	                    Numérico entero	    Código de Obra de la Apertura Programática.
+obra_desc	                string      	    Descripción de Obra de la Apertura Programática.
+ultima_actualizacion_fecha	Numérico entero	    Fecha de última actualización del registro.
+
+-mal documendatos los tipos (todos decian numerico entero)
+
+
+clasificador presupuestario finalidad y funcion
+
+ejercicio_presupuestario	Numérico entero	        Ejercicio Presupuestario.
+finalidad_id	            Numérico entero	        Código de la Finalidad.
+finalidad_desc	            Cadena de caracteres	Descripción de la Finalidad.
+funcion_id	                Numérico entero	        Código de la Función.
+funcion_desc	            Cadena de caracteres	Descripción de la Función.
+ultima_actualizacion_fecha	Numérico entero	        Fecha de última actualización del registro. 
+
+ok
+

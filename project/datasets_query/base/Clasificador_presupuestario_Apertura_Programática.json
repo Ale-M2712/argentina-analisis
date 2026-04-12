@@ -1,0 +1,18 @@
+{
+    "url": "https://www.presupuestoabierto.gob.ar/api/v1/recurso?format=csv",
+    "columns" : [
+"ejercicio_presupuestario",
+"servicio_id",
+"programa_id",
+"programa_desc",
+"subprograma_id",
+"subprograma_desc",
+"proyecto_id",
+"proyecto_desc",
+"actividad_id",
+"actividad_desc",
+"obra_id",
+"obra_desc",
+"ultima_actualizacion_fecha"
+]
+}
