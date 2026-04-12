@@ -1,0 +1,38 @@
+que tenemos
+tenemos una API ,4 links que representan tablas del presupuesto argentino
+
+url_1 = "https://www.presupuestoabierto.gob.ar/api/v1/credito?format=csv"
+url_2 = "https://www.presupuestoabierto.gob.ar/api/v1/recurso?format=csv"
+url_3 = "https://www.presupuestoabierto.gob.ar/api/v1/pef?format=csv"
+url_4 = "https://www.presupuestoabierto.gob.ar/api/v1/transversal_financiero?format=csv"
+
+cada una devuelve un csv con cierta info basandose en un filtro que aplicamos 
+
+objetivo
+- darle formato a los datos
+- poder actualizar sin recargar todos los datos
+- no duplicar datos 
+- dejar warehouse listo para el analisis
+- analizar el gasto por departamento
+- comprobar el crecimiento de presupuesto de departamentos 
+- analizar el cambio en el presupuesto total
+
+
+librerias
+- pyrequest
+- pandas
+- sqlalchemy
+
+herramientas
+- python
+- postgresql
+- powerBI
+
+incombeniente
+- los servidores no soportan grandes cantidades de datos entonces tenemos que reducir las llamadas a 1 mes de datos
+- los datos no tienen id por lo cual no podemos hacer un seguimiento
+
+desafios tecnicos
+- poder realizar la consulta entera como consultas pequeñas 
+- el proceso de guardado tiene que ser un proceso aparte del de pedido
+- hay 20 consultas principales que se pueden hacer y otras 21 que varian segun el año por lo tanto tengo que generar json de cada consulta y prepara un archivo config donde los gestiono tipo loader 
