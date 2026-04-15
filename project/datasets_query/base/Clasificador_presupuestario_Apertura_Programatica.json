@@ -1,5 +1,6 @@
 {
-    "url": "https://www.presupuestoabierto.gob.ar/api/v1/recurso?format=csv",
+    "url": "https://www.presupuestoabierto.gob.ar/api/v1/credito?format=csv",
+    "title" : "Clasificador_Presupuestario_Apertura_Programatica",
     "columns" : [
 "ejercicio_presupuestario",
 "servicio_id",
@@ -14,5 +15,7 @@
 "obra_id",
 "obra_desc",
 "ultima_actualizacion_fecha"
-]
+],
+"filtros":["impacto_presupuestario_mes","month"]
+
 }
