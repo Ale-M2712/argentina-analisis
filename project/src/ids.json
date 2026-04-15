@@ -1,4 +1,5 @@
 {
     "1": "base\\Clasificador_presupuestario_Apertura_Programatica.json",
-    "2": "base\\clasificador_presupuestario_Finalidad_y_Funcion.json"
+    "2": "base\\clasificador_presupuestario_Finalidad_y_Funcion.json",
+    "3": "endpoints\\credito.json"
 }

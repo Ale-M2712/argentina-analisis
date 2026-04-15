@@ -50,14 +50,12 @@ def make_query(id ,year ,month):#levanta el payload de para la consulta en la fe
 
 def execute_query(url ,payload ,headers):
     response =requests.post(url, json=payload, headers=headers)
-    with open(f"{payload.get('title')}.csv", "wb") as f: # Guardar el contenido en un archivo CSV
+    with open(f"{os.path.dirname(os.path.dirname(__file__))}\\data\\{payload.get('title')}.csv", "wb") as f: # Guardar el contenido en un archivo CSV
         f.write(response.content)
     return response
 
 
 
 if __name__ == "__main__":
-    query_dataset(1)
-    query_dataset(2)
-    #print(make_query(1,2023,5))
-    execute_query(*make_query(1,2023,5), header)
+    print(query_dataset(3))
+    execute_query(*make_query(3,2023,5), header)
