@@ -60,6 +60,9 @@
 "credito_pagado",
 "ultima_actualizacion_fecha"
 ],
-"filtros":["impacto_presupuestario_mes","month"]
+"filtros":["impacto_presupuestario_mes","month"],
+"inicio":{
+    "anio":1995,
+    "mes":1}
 
 }
